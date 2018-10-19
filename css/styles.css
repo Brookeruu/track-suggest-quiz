@@ -1,4 +1,4 @@
-.resultRuby, .resultDesign, .resultCsharp, .resultNone, #extraInfo {
+#resultRuby, #resultDesign, #resultCsharp, #resultNone, #extraInfo {
   display: none;
 }
 p {

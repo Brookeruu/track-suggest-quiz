@@ -22,8 +22,8 @@
       <p>Are you interested in computer programming?</p>
 
       <select class="form-control" id="interest">
-        <option value="opt1">Yes</option>
-        <option value="opt2">No</option>
+        <option value=true>Yes</option>
+        <option value=false>No</option>
       </select>
 
       <p>How do you feel about sitting in front of a computer for 8 hours a day, everyday?</p>
@@ -53,30 +53,30 @@
         <option value="3">If I can focus on the user interface (layout, colors, design, etc.), I'll be happy.</option>
       </select>
 
+      <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    <button type="submit" class="btn btn-primary">Submit</button>
 
 
     <!-- results -->
 
     <p>You might like: <span id="resultName"></span>
 
-      <div class="resultDesign">
+      <div id="resultDesign">
         <h3>Css & Design</h3>
         <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design.</p>
       </div>
 
-      <div class="resultRuby">
+      <div id="resultRuby">
         <h3>Ruby</h3>
         <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
       </div>
 
-      <div class="resultCsharp">
+      <div id="resultCsharp">
         <h3>C#</h3>
         <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
       </div>
 
-      <div class="resultNone">
+      <div id="resultNone">
         <p>Computer programming is not for everyone. It requires both an interest in the subject and long hours in front of a computer.<strong>Consider a different career path.</strong></p>
       </div>
 

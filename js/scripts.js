@@ -17,15 +17,15 @@
 
 $(document).ready(function() {
   $("form#whichTrack").submit(function(event) {
+    event.preventDefault();
     var resultInterest = $("select#interest").val();
+    console.log(resultInterest);
 
-    if(resultInterest === "opt2") {
-      $(".resultNone").show();
+    if(resultInterest === false) {
+      $("#resultNone").show();
     }
 
 
 
-    event.preventDefault();
   });
-
 });
