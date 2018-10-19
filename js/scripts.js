@@ -1,17 +1,3 @@
-// var resultInterest = interest(function) {
-//   if (interest === option1) {
-//     return true;
-//   }
-// }
-
-//
-// var resultInterest = $("select#interest").val();
-// var longHours
-// var layoutDesign
-// var bigBusiness
-// var describeYou
-
-
 
 
 $(document).ready(function() {
@@ -20,11 +6,13 @@ $(document).ready(function() {
 
     var resultInterest = $("#interest").val();
 
-    if(resultInterest === false) {
+    if(resultInterest === "Yes") {
+      $("#resultNone").hide();
+    } else {
       $("#resultNone").show();
+      
     }
-    // var resultInterest = $("#interest").val();
-console.log(resultInterest);
+
   });
 
 

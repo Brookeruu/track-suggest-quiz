@@ -1,20 +1,4 @@
-#resultRuby {
-  display: none;
-}
-
-#resultCsharp {
-  display: none;
-}
-
-#resultNone {
-  display: none;
-}
-
-#resultDesign {
-  display: none;
-}
-
-#extraInfo {
+#resultRuby, #resultCsharp, #resultNone, #resultDesign, #extraInfo {
   display: none;
 }
 
