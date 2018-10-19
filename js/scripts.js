@@ -32,14 +32,17 @@ $(document).ready(function() {
           $("#resultCsharp").show();
           $("#extraInfo").show();
           $("#whichTrack").hide();
+          $("h1").hide();
         } else if(resultLayoutDesign === "2" && resultBigBusiness === "2" || resultLayoutDesign === "2" && resultDescribeYou === "2" || resultBigBusiness === "2" && resultDescribeYou === "2") {
           $("#resultRuby").show();
           $("#extraInfo").show();
           $("#whichTrack").hide();
+            $("h1").hide();
         } else if(resultLayoutDesign === "3" && resultBigBusiness === "3" || resultLayoutDesign === "3" && resultDescribeYou === "3" ||  resultBigBusiness === "3" && resultDescribeYou === "3") {
           $("#resultDesign").show();
           $("#extraInfo").show();
           $("#whichTrack").hide();
+            $("h1").hide();
         } else if(resultLayoutDesign === "1" && resultBigBusiness === "2" && resultDescribeYou === "3" || resultLayoutDesign === "2" && resultBigBusiness === "3" && resultDescribeYou === "1" || resultLayoutDesign === "3" && resultBigBusiness === "1" && resultDescribeYou === "2") {
           $("#resultRuby").show();
           $("#resultCsharp").show();
@@ -47,6 +50,7 @@ $(document).ready(function() {
           $("#extraInfo").show();
           $(".resultAll").show();
           $("#whichTrack").hide();
+          $("h1").hide();
         }
 
 
