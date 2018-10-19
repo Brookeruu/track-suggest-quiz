@@ -28,65 +28,66 @@
 
       <p>How do you feel about sitting in front of a computer for 8 hours a day, everyday?</p>
       <select class="form-control" id="longHours">
-        <option value="1">I can't look at a computer screen for that long!</option>
-        <option value="2">I already spend my workday in front of a computer, I don't mind it.</option>
+        <option value="1">I already spend my workday in front of a computer, I don't mind it.</option>
+        <option value="2">I can't look at a computer screen for that long!</option>
       </select>
 
-      <p>Designing the aesthetics and layout of a website: </p>
-      <select class="form-control" id="layoutDesign">
-        <option value="1">Really interests me; I enjoy being creative!</option>
-        <option value="2">Is daunting, I don't have a creative bone in my body!</option>
-        <option value="3">Is interesting, but I'd rather work behind the scenes.</option>
-      </select>
+      <div id="threeQuestions">
+        <p>Designing the aesthetics and layout of a website: </p>
+        <select class="form-control" id="layoutDesign">
+          <option value="1">Really interests me; I enjoy being creative!</option>
+          <option value="2">Is daunting, I don't have a creative bone in my body!</option>
+          <option value="3">Is interesting, but I'd rather work behind the scenes.</option>
+        </select>
 
-      <p>Working at established businesses or large corporations:</p>
-      <select class="form-control" id="bigBusiness">
-        <option value="1">Is my ideal environment!</option>
-        <option value="2">I'd prefer to work at a smaller business, possibly a startup.</option>
-        <option value="3">I don't care, as long as I can keep my creative juices flowing!</option>
-      </select>
+        <p>Working at established businesses or large corporations:</p>
+        <select class="form-control" id="bigBusiness">
+          <option value="1">Is my ideal environment!</option>
+          <option value="2">I'd prefer to work at a smaller business, possibly a startup.</option>
+          <option value="3">I don't care, as long as I can keep my creative juices flowing!</option>
+        </select>
 
-      <p>Which of these best decribe you?</p>
-      <select class="form-control" id="describeYou">
-        <option value="1">I prefer using a Windows computer, and wouldn't mind dedicating my soul to Microsoft.</option>
-        <option value="2">I'd really like to make websites like AirBnb, Scribd, and Twitter.</option>
-        <option value="3">If I can focus on the user interface (layout, colors, design, etc.), I'll be happy.</option>
-      </select>
-
+        <p>Which of these best decribe you?</p>
+        <select class="form-control" id="describeYou">
+          <option value="1">I prefer using a Windows computer, and wouldn't mind dedicating my soul to Microsoft.</option>
+          <option value="2">I'd really like to make websites like AirBnb, Scribd, and Twitter.</option>
+          <option value="3">If I can focus on the user interface (layout, colors, design, etc.), I'll be happy.</option>
+        </select>
+      </div>
       <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 
 
-    <!-- results -->
+  <!-- results -->
 
-    <p>Results: <span id="resultName"></span>
+  <p>Results: <span id="resultName"></span>
 
-      <div id="resultDesign">
-        <h3>Css & Design</h3>
-        <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design.</p>
-      </div>
-
-      <div id="resultRuby">
-        <h3>Ruby</h3>
-        <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
-      </div>
-
-      <div id="resultCsharp">
-        <h3>C#</h3>
-        <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
-      </div>
-
-      <div id="resultNone">
-        <p>Computer programming is not for everyone. It requires both an interest in the subject and long hours in front of a computer. <strong>Consider a different career path.</strong></p>
-      </div>
-
-      <div id="extraInfo">
-
-        <p>Click <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">here</a> to more about different lanugage tracks offered at Epicodus.</p>
-      </div>
-
-
-      <!-- closing container -->
+    <div id="resultDesign">
+      <h3>Css & Design</h3>
+      <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design.</p>
     </div>
-  </body>
-  </html>
+
+    <div id="resultRuby">
+      <h3>Ruby</h3>
+      <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+    </div>
+
+    <div id="resultCsharp">
+      <h3>C#</h3>
+      <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
+    </div>
+
+    <div id="resultNone">
+      <p>If you're not interested in computer programming, or don't like to work at a computer for 8 hours in a day, programming might not be for you. <strong>Consider a different career path.</strong></p>
+    </div>
+
+    <div id="extraInfo">
+
+      <p>Click <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn">here</a> to more about different lanugage tracks offered at Epicodus.</p>
+    </div>
+
+
+    <!-- closing container -->
+  </div>
+</body>
+</html>
