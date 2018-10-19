@@ -4,7 +4,6 @@
 //   }
 // }
 
-
 //
 // var resultInterest = $("select#interest").val();
 // var longHours
@@ -18,14 +17,16 @@
 $(document).ready(function() {
   $("form#whichTrack").submit(function(event) {
     event.preventDefault();
-    var resultInterest = $("select#interest").val();
-    console.log(resultInterest);
+
+    var resultInterest = $("#interest").val();
 
     if(resultInterest === false) {
       $("#resultNone").show();
     }
-
-
-
+    // var resultInterest = $("#interest").val();
+console.log(resultInterest);
   });
+
+
+
 });
