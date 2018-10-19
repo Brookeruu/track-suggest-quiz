@@ -6,6 +6,9 @@ $(document).ready(function() {
 
     var resultInterest = $("#interest").val();
     var resultLongHours = $("#longHours").val();
+    var resultLayoutDesign = $("#layoutDesign").val();
+    var resultBigBusiness = $("#bigBusiness").val();
+    var resultDescribeYou = $("#describeYou").val();
 
     if(resultInterest === "Yes") {
       $("#resultNone").hide();
@@ -20,6 +23,12 @@ $(document).ready(function() {
       $("#resultNone").show();
       $("#threeQuestions").hide();
     }
+
+    if
+
+
+
+
 
   });
 });
