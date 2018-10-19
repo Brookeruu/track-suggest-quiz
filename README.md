@@ -1,6 +1,6 @@
 # Which Programming Language Should I Study?
 
-#### Git, HTML, CSS
+#### Git, HTML, CSS, JavaScript, jQuery
 
 ##### By Brooke Perry
 
@@ -16,7 +16,7 @@ Link to github: https://github.com/Brookeruu/wk2-friday-project.git
 
 #### Known Bugs
 
-* Bug with first question: if selected "No", a second paragraph should appear in the results. 
+* Bug with first question: if selected "No", a second paragraph should appear in the results.
 
 
 #### Technologies Used
