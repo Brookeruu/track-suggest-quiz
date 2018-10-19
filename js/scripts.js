@@ -24,10 +24,13 @@ $(document).ready(function() {
       $("#threeQuestions").hide();
     }
 
-    if
+    if(resultLayoutDesign === "1" && resultBigBusiness === "1" || resultLayoutDesign === "1" && resultDescribeYou === "1" || resultBigBusiness === "1" && resultDescribeYou === "1") {
+      $("#resultCsharp").show();
+    }
 
-
-
+    if(resultLayoutDesign === "2" && resultBigBusiness === "2" || resultLayoutDesign === "2" && resultDescribeYou === "2" || resultBigBusiness === "2" && resultDescribeYou === "2") {
+      $("#resultRuby").show();
+    }
 
 
   });
