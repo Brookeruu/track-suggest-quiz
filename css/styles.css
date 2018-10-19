@@ -1,3 +1,6 @@
 .resultRuby, .resultDesign, .resultCsharp, .resultNone, #extraInfo {
   display: none;
 }
+p {
+  padding-top: 20px;
+}

@@ -15,19 +15,17 @@
 
 
 
-$(document).ready(function(){
+$(document).ready(function() {
   $("form#whichTrack").submit(function(event) {
     var resultInterest = $("select#interest").val();
 
-    if(returnInterest === opt2) {
+    if(resultInterest === "opt2") {
       $(".resultNone").show();
     }
 
 
 
-  event.preventDefault();
-
-
-  })
+    event.preventDefault();
+  });
 
 });
