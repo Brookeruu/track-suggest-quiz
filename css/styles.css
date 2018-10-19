@@ -1,6 +1,23 @@
-#resultRuby, #resultDesign, #resultCsharp, #resultNone, #extraInfo {
+#resultRuby {
   display: none;
 }
+
+#resultCsharp {
+  display: none;
+}
+
+#resultNone {
+  display: none;
+}
+
+#resultDesign {
+  display: none;
+}
+
+#extraInfo {
+  display: none;
+}
+
 p {
   padding-top: 20px;
 }
