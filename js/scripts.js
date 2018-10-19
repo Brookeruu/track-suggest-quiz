@@ -1,0 +1,1 @@
+var interest = $("#interest").val();
