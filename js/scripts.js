@@ -27,7 +27,6 @@ $(document).ready(function() {
       $("#threeQuestions").hide();
     }
 
-
         if(resultLayoutDesign === "1" && resultBigBusiness === "1" || resultLayoutDesign === "1" && resultDescribeYou === "1" || resultBigBusiness === "1" && resultDescribeYou === "1") {
           $("#resultCsharp").show();
           $("#extraInfo").show();
@@ -52,11 +51,6 @@ $(document).ready(function() {
           $("#whichTrack").hide();
           $("h1").hide();
         }
-
-
-
-
-
   });
 });
 

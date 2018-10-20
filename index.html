@@ -1,102 +1,89 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-  <link rel="stylesheet" href="css/styles.css" type="text/css">
-  <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
-  <script src="js/scripts.js" type="text/javascript"></script>
+  <html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
 
-  <meta charset="utf-8">
-  <title>Which Programming Language?</title>
-</head>
-<body>
-  <div class="container">
+    <meta charset="utf-8">
+    <title>Which Programming Language?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Programming Language Should I learn?</h1>
+      <!-- form begins here -->
+      <form id="whichTrack">
+        <p id="intro">Take this brief quiz to help you decide which programming language is best for you.</p>
+        <p>Are you interested in computer programming?</p>
 
-    <h1>Which Programming Language Should I learn?</h1>
-
-
-    <!-- form begins here -->
-
-    <form id="whichTrack">
-      <p id="intro">Take this brief quiz to help you decide which programming language is best for you.</p>
-      <p>Are you interested in computer programming?</p>
-
-      <select class="form-control" id="interest">
-        <option>Yes</option>
-        <option>No</option>
-      </select>
-
-      <p>How do you feel about sitting in front of a computer for 8 hours a day, everyday?</p>
-      <select class="form-control" id="longHours">
-        <option value="1">I already spend my workday in front of a computer, I don't mind it.</option>
-        <option value="2">I can't look at a computer screen for that long!</option>
-      </select>
-
-      <div id="threeQuestions">
-        <p>Designing the aesthetics and layout of a website: </p>
-        <select class="form-control" id="layoutDesign">
-          <option value="1">Is daunting, I don't have a creative bone in my body!</option>
-          <option value="2">Is interesting, but I'd rather work behind the scenes.</option>
-          <option value="3">Really interests me; I enjoy being creative!</option>
+        <select class="form-control" id="interest">
+          <option>Yes</option>
+          <option>No</option>
         </select>
 
-        <p>Working at established businesses or large corporations:</p>
-        <select class="form-control" id="bigBusiness">
-          <option value="1">Is my ideal environment!</option>
-          <option value="2">I'd prefer to work at a smaller business, possibly a startup.</option>
-          <option value="3">I don't care, as long as I can keep my creative juices flowing!</option>
+        <p>How do you feel about sitting in front of a computer for 8 hours a day, everyday?</p>
+        <select class="form-control" id="longHours">
+          <option value="1">I already spend my workday in front of a computer, I don't mind it.</option>
+          <option value="2">I can't look at a computer screen for that long!</option>
         </select>
 
-        <p>Which of these best decribe you?</p>
-        <select class="form-control" id="describeYou">
-          <option value="1">I prefer using a Windows computer, and wouldn't mind dedicating my soul to Microsoft.</option>
-          <option value="2">I'd really like to make websites like AirBnb, Scribd, and Twitter.</option>
-          <option value="3">If I can focus on the user interface (layout, colors, design, etc.), I'll be happy.</option>
-        </select>
+        <div id="threeQuestions">
+          <p>Designing the aesthetics and layout of a website: </p>
+          <select class="form-control" id="layoutDesign">
+            <option value="1">Is daunting, I don't have a creative bone in my body!</option>
+            <option value="2">Is interesting, but I'd rather work behind the scenes.</option>
+            <option value="3">Really interests me; I enjoy being creative!</option>
+          </select>
+
+          <p>Working at established businesses or large corporations:</p>
+          <select class="form-control" id="bigBusiness">
+            <option value="1">Is my ideal environment!</option>
+            <option value="2">I'd prefer to work at a smaller business, possibly a startup.</option>
+            <option value="3">I don't care, as long as I can keep my creative juices flowing!</option>
+          </select>
+
+          <p>Which of these best decribe you?</p>
+          <select class="form-control" id="describeYou">
+            <option value="1">I prefer using a Windows computer, and wouldn't mind dedicating my soul to Microsoft.</option>
+            <option value="2">I'd really like to make websites like AirBnb, Scribd, and Twitter.</option>
+            <option value="3">If I can focus on the user interface (layout, colors, design, etc.), I'll be happy.</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Show me which track best suits me!</button>
+      </form>
+      <!-- results -->
+      <div class="resultAll">
+        <p>Any of these tracks will suit you!</p>
       </div>
-      <button type="submit" class="btn btn-primary">Show me which track best suits me!</button>
-    </form>
 
+      <div id="resultDesign">
+        <img src="img/css.png" alt="css symbol">
+        <h3>CSS & Design</h3>
+        <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design.</p>
+      </div>
 
-  <!-- results -->
+      <div id="resultRuby">
+        <img src="img/rubyrails.png" alt="ruby symbol">
+        <h3>Ruby</h3>
+        <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
+      </div>
 
-    <div class="resultAll">
-      <p>Any of these tracks will suit you!</p>
+      <div id="resultCsharp">
+        <img src="img/csharp.jpg" alt="csharp symbol">
+        <h3>C#</h3>
+        <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
+      </div>
+
+      <div id="resultNone">
+        <p><em>However</em>, if you're not interested in computer programming, or don't like to work at a computer for 8 hours in a day, programming might not be for you. <strong>Consider a different career path.</strong></p>
+      </div>
+
+      <div id="extraInfo">
+        <p>Click <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn" target="_blank">here</a> to learn more about different lanugage tracks offered at Epicodus.</p>
+        <a href="file:///Users/brookeperry/desktop/wk2-friday-project/index.html">Retake Quiz</a>
+      </div>
+      <!-- closing container -->
     </div>
-
-    <div id="resultDesign">
-          <img src="img/css.png" alt="css symbol">
-      <h3>CSS & Design</h3>
-      <p>Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design. If this type of work appeals to you, your best bet is to take CSS and Design.</p>
-    </div>
-
-    <div id="resultRuby">
-      <img src="img/rubyrails.png" alt="ruby symbol">
-      <h3>Ruby</h3>
-      <p>Ruby is a favorite language of developers building interactive web applications. If an app involves users creating accounts, entering information, and interacting with dynamic content, there's a good chance it is built with Ruby. Ruby became popular because the Rails framework, which is written with Ruby, simplified many of the common tasks associated with building web applications. It's most popular with startups and smaller companies who are looking to build their product quickly.</p>
-    </div>
-
-    <div id="resultCsharp">
-          <img src="img/csharp.jpg" alt="csharp symbol">
-      <h3>C#</h3>
-      <p>C# is most popular among bigger established businesses, often for building internal software. Because it's been around for a long time and has the backing of Microsoft, it is one of the most in-demand languages in the job market. C# has also been going through a bit of a rebirth lately, with Microsoft open sourcing the language and surrounding platform, porting it to run on Mac and Linux, and incorporating many of the best features of other languages. If you like the idea of working for a larger company on business software, C# is a great choice.</p>
-    </div>
-
-    <div id="resultNone">
-      <p><em>However</em>, if you're not interested in computer programming, or don't like to work at a computer for 8 hours in a day, programming might not be for you. <strong>Consider a different career path.</strong></p>
-    </div>
-
-    <div id="extraInfo">
-
-      <p>Click <a href="https://www.epicodus.com/blog/what-programming-language-should-i-learn" target="_blank">here</a> to learn more about different lanugage tracks offered at Epicodus.</p>
-
-      <a href="file:///Users/brookeperry/desktop/wk2-friday-project/index.html">Retake Quiz</a>
-    </div>
-
-
-
-
-    <!-- closing container -->
-  </div>
-</body>
+  </body>
 </html>

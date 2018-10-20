@@ -8,7 +8,7 @@ _This site was create as the Intro to Programming Week 2 Independent Project. Th
 
 The main page has a 5 question quiz. Depending on the responses, the user be directed to a page with one of three programming languages offered at Epicodus: Ruby, CSS & Design, or C#.
 
-Link to github: https://github.com/Brookeruu/wk2-friday-project.git
+Link to github: https://github.com/Brookeruu/track-suggest-quiz.git
 
 ## Setup/Installation Requirements
 * Clone this repository
