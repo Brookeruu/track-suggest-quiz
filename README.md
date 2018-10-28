@@ -28,4 +28,4 @@ The main page has a 5 question quiz. Depending on the responses, the user will r
 
 ###### This software is licensed under the MIT licensed
 
-###### Copyright(c) 2018 Brooke PerryÂ
+###### Copyright(c) 2018 Brooke Perry
