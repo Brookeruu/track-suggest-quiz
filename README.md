@@ -8,15 +8,15 @@ _This site was create as the Intro to Programming Week 2 Independent Project. Th
 
 The main page has a 5 question quiz. Depending on the responses, the user be directed to a page with one of three programming languages offered at Epicodus: Ruby, CSS & Design, or C#.
 
-Link to github: https://github.com/Brookeruu/track-suggest-quiz.git
+Link to github repository: https://github.com/Brookeruu/track-suggest-quiz.git
+link to github working site: https://brookeruu.github.io/track-suggest-quiz/
 
 ## Setup/Installation Requirements
 * Clone this repository
 * Open in browser of your choice
 
 #### Known Bugs
-
-* Bug with first question: if selected "No", a second paragraph should appear in the results.
+* None at this time
 
 
 #### Technologies Used
@@ -24,7 +24,7 @@ Link to github: https://github.com/Brookeruu/track-suggest-quiz.git
 * CSS
 * bootstrap
 * javascript
-* jquery
+* jQuery
 
 #### **Contact** Brooke Perry
 
