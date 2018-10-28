@@ -30,12 +30,15 @@ h1 {
   background-repeat: no-repeat;
   color: white;
   background-position: center;
-  padding: 50px;
+  padding: 45px;
   text-align: center;
-  font-size: 75px;
+  font-size: 60px;
   text-align: center;
 }
 
 form p{
   font-weight: bold;
+}
+em {
+  color: red;
 }
